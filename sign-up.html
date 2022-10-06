@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <title>Swefland - Offers</title>
+    
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/owl.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+        <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    
+        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    </head>
+    
+    <body>
+        <div class="overlayer" id="overlayer">
+            <div class="loader">
+                <div class="loader-inner"></div>
+            </div>
+        </div>
+        <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+        <div class="overlay"></div>
+        
+    
+        <!--============= Header Section Starts Here =============-->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-top-wrapper">
+                        <ul class="cart-button-area">
+                            <a href="index.html">
+                                <img src="assets/images/logo/logo.png" alt="logo">
+                            </a>  
+                            
+                        </ul>
+                        <ul class="customer-support">
+                            <li>
+                                <a href="tel:+995 577 124 108" class="mr-3"><i class="fas fa-phone-alt"></i><span class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            </li>
+                            <li>
+                                <i class="fas fa-globe"></i>
+                                <select name="language" class="select-bar">
+                                    <option value="en">En</option>
+                                    <option value="ar">Ar</option>
+                                    <option value="ka">Ka</option>
+                                    <option value="ru">Ru</option>>
+                                </select>
+                            </li>     
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!--============= Header Section Ends Here =============-->
+
+
+    <!--============= Hero Section Starts Here =============-->
+    <div class="hero-section">
+        <div class="container">
+            <ul class="breadcrumb">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#0">Pages</a>
+                </li>
+                <li>
+                    <span>REGISTRATION</span>
+                </li>
+            </ul>
+        </div>
+        <div class="bg_img hero-bg bottom_center" data-background="assets/images/banner/hero-bg.png"></div>
+    </div>
+    <!--============= Hero Section Ends Here =============-->
+
+
+    <!--============= Account Section Starts Here =============-->
+    <section class="account-section padding-bottom">
+        <div class="container">
+            <div class="account-wrapper mt--100 mt-lg--440">
+                <div class="left-side">
+                    <div class="section-header">
+                        <h2 class="title">REGISTRATION</h2>
+                        <p>We're happy you're here!</p>
+                    </div>
+                    <form action="https://crm.yorktowers.com/modules/Webforms/capture.php" id="__vtigerWebForm" class="login-form"  name="website" method="post" enctype="multipart/form-data">
+                        <div class="form-group mb-30">
+                            <label for="login-email"><i class="fa fa-user"></i></label>
+                            <input type="text" id="name" placeholder="Name" name="lastname"   maxlength="256" ddata-label="" value=""  autofocus required>
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-email"><i class="fa fa-phone"></i></label>
+                            <input type="tel" maxlength="17" onkeypress='validate(event)' id="phone"  name="mobile" value="" pattern="^\+(?:[0-9] ?){6,14}[0-9]$" title="Enter Valid Number Start With Special Country Code "  data-label="" placeholder="Phone Number With Country Code"  required>
+
+                            <script>
+                                function validate(evt) {
+                                     var theEvent = evt || window.event;
+             
+                                     // Handle paste
+                                     if (theEvent.type === 'paste') {
+                                         key = event.clipboardData.getData('text/plain');
+                                     } else {
+                                     // Handle key press
+                                         var key = theEvent.keyCode || theEvent.which;
+                                         key = String.fromCharCode(key);
+                                     }
+                                     var regex = /[+.0-9]|\./;
+                                     if( !regex.test(key) ) {
+                                       theEvent.returnValue = false;
+                                       if(theEvent.preventDefault) theEvent.preventDefault();
+                                     }
+                                   }
+
+                                   document.getElementById("check").checked = true;
+                             </script>
+
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-pass"><i class="fa fa-envelope-open-text"></i></label>
+                            <input type="email" id="form-hero-email" value=""  name="email" placeholder="Email Address" maxlength="256" data-label="" required> 
+                        </div>
+                        <div class="form-group mb-30">
+                            <label for="login-email"><i class="fa fa-comment"></i></label>
+                            <input type="text" id="Message" autocomplete="off" maxlength="256" name="description" placeholder="Message">
+                        </div>
+                        <div class="form-group mb-0">
+                            <button type="submit" class="custom-button" value="Submit" data-wait="Please wait...">SIGN UP</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="right-side cl-white">
+                    <div class="section-header mb-0">
+                        <h3 class="title mt-0">IF YOU HAVE ANY QUESTIONS?</h3>
+                        <a href="https://faqs.swefland.com/" target="_blank" class="custom-button transparent">FAQ`S</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Account Section Ends Here =============-->
+
+    <!--============= Footer Section Starts Here =============-->
+    <footer class="bg_img padding-top oh" data-background="assets/images/footer/footer-bg.jpg">
+        <div class="footer-top-shape">
+            <img src="assets/css/img/footer-top-shape.png" alt="css">
+        </div>
+        <div class="anime-wrapper">
+            <div class="anime-1 plus-anime">
+                <img src="assets/images/footer/p1.png" alt="footer">
+            </div>
+            <div class="anime-2 plus-anime">
+                <img src="assets/images/footer/p2.png" alt="footer">
+            </div>
+            <div class="anime-3 plus-anime">
+                <img src="assets/images/footer/p3.png" alt="footer">
+            </div>
+            <div class="anime-5 zigzag">
+                <img src="assets/images/footer/c2.png" alt="footer">
+            </div>
+            <div class="anime-6 zigzag">
+                <img src="assets/images/footer/c3.png" alt="footer">
+            </div>
+            <div class="anime-7 zigzag">
+                <img src="assets/images/footer/c4.png" alt="footer">
+            </div>
+        </div>
+
+        <div class="footer-top padding-bottom padding-top" style="margin-top: 3rem;">
+            <div class="container">
+                <div class="row mb--60">
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="footer-widget widget-links">
+                            <h5 class="title">ABOUT COMPANY</h5>
+                            <ul class="links-list">
+                                <li>
+                                    <a href="#0">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Why Georgia</a>
+                                </li>
+                                <li>
+                                    <a href="https://blog.swefland.com/">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Branches</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="footer-widget widget-follow">
+                            <h5 class="title">CONTACT US</h5>
+                            <ul class="links-list">
+                                <li>
+                                    <a href="https://api.whatsapp.com/send?phone=995577124108" target="_blank"><i class="fas fa-phone-alt"></i>+995 577 124 108</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:Info@Swefland.com"><i class="fas fa-envelope-open-text"></i>info@Swefland.com</a>
+                                </li>
+                                <li>
+                                    <a href="https://goo.gl/maps/6ZQTyKkyzS6vn7Vu5" target="_blank"><i class="fas fa-location-arrow"></i>I. Chavchavadze ave 37 M, Axis towers black</a>
+                                </li>
+                            </ul>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="https://www.facebook.com/swefland/" class="active"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC2Y4Ec28KlMYcqAKAqmHGTg" ><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/swefland/"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/swefland/"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-area">
+                    <div class="footer-bottom-wrapper">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="copyright"><p>&copy; Copyright 2022 | Developed By  💜 <a href="https://Swefland.com/" target="_blank" style="color: white;">Swefland</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--============= Footer Section Ends Here =============-->
+
+    <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="position: fixed; bottom: 105px; left: -42px; z-index: 80;"><a id="WhatsApp-button" href="https://api.whatsapp.com/send?phone=995577124108&text=Contact%20Us%20Via%20Whatsapp" target="_blank" class="phoneJs" title="YorkTowers"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/yscountdown.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+</html>

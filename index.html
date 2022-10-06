@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Swefland - Offers</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/owl.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="overlayer" id="overlayer">
+        <div class="loader">
+            <div class="loader-inner"></div>
+        </div>
+    </div>
+    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+    <div class="overlay"></div>
+    
+
+    <!--============= Header Section Starts Here =============-->
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrapper">
+                    <ul class="cart-button-area">
+                        <a href="">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>  
+                        
+                    </ul>
+                    <ul class="customer-support">
+                        <li>
+                            <a href="tel:+995 577 124 108" class="mr-3"><i class="fas fa-phone-alt"></i><span class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                        </li>
+                        <li>
+                            <i class="fas fa-globe"></i>
+                            <select name="language" class="select-bar" onChange="if(this.selectedIndex!=0)
+                            self.location=this.options[this.selectedIndex].value">
+                                <option value="en">En</option>
+                                <option value="#0">Ar</option>
+                            </select>
+                        </li>     
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--============= Header Section Ends Here =============-->
+
+    <!--============= Banner Section Starts Here =============-->
+    <section class="banner-section-4 bg_img oh" data-background="assets/images/banner/banner-bg-4.png">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-10 col-lg-7 col-xl-8">
+                    <div class="banner-content cl-white">
+                      
+                        <h1 class="title">Largest Real Estate <span class="d-xl-block"> Event-Sale <span style="color: #fac123">2022</span></span></h1>
+                        <p class="mw-500">
+                            Great Deals specially designed for you <br>Hurry , Take advantage of the hugest discounts ever. 
+                            <br> <br>
+                            <span style="color: #fa2323;font-size: 1.4rem;font-weight: 500;">Limited Time Remaining</span>
+                        </p>
+                        <div class="countdown1">
+                            <div id="bid_counter35"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-4">
+                    <div class="banner-thumb-4">
+                        <span id="visitor"> Website Visits : </span> 
+                        <script>
+
+                            function fakecounter(){
+
+                            var decrease_increase=0
+                            
+                            var counterdate=new Date()
+                            var currenthits=counterdate.getTime().toString()
+                            currenthits=parseInt(currenthits.substring(7,currenthits.length-4))+decrease_increase
+                           
+                            document.write(" <be>"+currenthits+"</be> ")
+                            }
+                            fakecounter()
+                            </script>   
+                                                 
+                        <a href="#appartments" class="bid-now"><img src="assets\images\icons\booking.png"><span>BOOK NOW</span></a>
+                        <img src="assets/images/banner/banner-4.png" alt="banner">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-shape d-none d-lg-block bot-0">
+            <img src="assets/css/img/banner-shape-4.png" alt="css">
+        </div>
+    </section>
+    <!--============= Banner Section Ends Here =============-->
+
+   <!--============= Featured Auction Section Starts Here =============-->
+   <section class="featured-auction-section padding-bottom pos-rel oh" id="appartments">
+    <div class="car-bg"><img src="assets/images/auction/featured/featured-bg-2.png" alt="featured"></div>
+    <div class="container">
+        <div class="section-header-3">
+            <div class="left d-block">
+                <h2 class="title mb-3">White Friday Offers</h2>
+                <p>Discounts at their best level</p>
+            </div>
+        </div>
+        <div class="row justify-content-center mb-30-none">
+            <div class="col-sm-10 col-md-6 col-lg-5">
+                <div class="auction-item-8">
+                    <a href="./details/46.html" class="thumb-area bg_img"> 
+                        <img src="assets/images/auction/featured/auction-1.png" alt="">
+                    </a>
+                    <div class="auction-content">
+                        <div class="title-area">
+                            <h6 class="title">
+                                <a href="./details/46.html">Hollywood Apartment #46</a>
+                            </h6>
+                            <div class="item-feature">
+                                <span>1 Beds</span>
+                                <span>1 Baths</span>
+                                <span>46 Sq. Ft.</span>
+                            </div>
+                            <h6 class="title">This Offer Ends in:</h6>
+                            <div class="countdwn">
+                                <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
+                                <be> <div id="min_counter_1" class="count-item"></div></be>
+                            </div>
+                        </div>
+                        <div id="offer2">
+                            <div class="bid-area">
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\previous.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Previous Price</div>
+                                        <div class="amount1">$48,300</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\checked.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Current Price</div>
+                                        <div class="amount">$33,900</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\dollar.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current1">You Saved</div>
+                                        <div class="amount">$14,400</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\logo_tbc.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current2">TBC BANK</div>
+                                        <div class="amount">Guarantee</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-count-area">
+                                <span class="item">
+                                    <span class="left">Sold Today </span> <span id="number">40</span>
+                                </span>
+                                <span class="item">
+                                    <span class="left"> Available</span><span id="number2">24</span> 
+                            </div>
+                            <div class="text-center">
+                                <a href="./details/46.html" class="custom-button">MORE DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-5">
+                <div class="auction-item-8">
+                    <a href="./details/46.html" class="thumb-area bg_img"> 
+                        <img src="assets/images/auction/featured/auction-1.png" alt="">
+                    </a>
+                    <div class="auction-content">
+                        <div class="title-area">
+                            <h6 class="title">
+                                <a href="./details/46.html">Hollywood Apartment #46</a>
+                            </h6>
+                            <div class="item-feature">
+                                <span>1 Beds</span>
+                                <span>1 Baths</span>
+                                <span>46 Sq. Ft.</span>
+                            </div>
+                            <h6 class="title">This Offer Ends in:</h6>
+                            <div class="countdwn">
+                                <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
+                                <be> <div id="min_counter_2" class="count-item"></div></be>
+                            </div>
+                        </div>
+                        <div id="offer">
+                            <div class="bid-area">
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\previous.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Previous Price</div>
+                                        <div class="amount1">$48,300</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\checked.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Current Price</div>
+                                        <div class="amount">$33,900</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\dollar.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current1">You Saved</div>
+                                        <div class="amount">$14,400</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\logo_tbc.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current2">TBC BANK</div>
+                                        <div class="amount">Guarantee</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-count-area">
+                                <span class="item">
+                                    <span class="left">Sold Today </span> <span id="number">40</span>
+                                </span>
+                                <span class="item">
+                                    <span class="left"> Available</span><span id="number2">24</span> 
+                            </div>
+                            <div class="text-center">
+                                <a href="./details/46.html" class="custom-button">MORE DETAILS</a>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-5">
+                <div class="auction-item-8">
+                    <a href="./details/46.html" class="thumb-area bg_img"> 
+                        <img src="assets/images/auction/featured/auction-1.png" alt="">
+                    </a>
+                    <div class="auction-content">
+                        <div class="title-area">
+                            <h6 class="title">
+                                <a href="./details/46.html">Hollywood Apartment #46</a>
+                            </h6>
+                            <div class="item-feature">
+                                <span>1 Beds</span>
+                                <span>1 Baths</span>
+                                <span>46 Sq. Ft.</span>
+                            </div>
+                            <h6 class="title">This Offer Ends in:</h6>
+                            <div class="countdwn">
+                                <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
+                                <be> <div id="min_counter_3" class="count-item"></div></be>
+                            </div>
+                        </div>
+                        <div id="offer">
+                            <div class="bid-area">
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\previous.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Previous Price</div>
+                                        <div class="amount1">$48,300</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\checked.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Current Price</div>
+                                        <div class="amount">$33,900</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\dollar.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current1">You Saved</div>
+                                        <div class="amount">$14,400</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\logo_tbc.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current2">TBC BANK</div>
+                                        <div class="amount">Guarantee</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-count-area">
+                                <span class="item">
+                                    <span class="left">Sold Today </span> <span id="number">40</span>
+                                </span>
+                                <span class="item">
+                                    <span class="left"> Available</span><span id="number2">24</span> 
+                            </div>
+                            <div class="text-center">
+                                <a href="./details/46.html" class="custom-button">MORE DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-md-6 col-lg-5">
+                <div class="auction-item-8">
+                    <a href="./details/46.html" class="thumb-area bg_img"> 
+                        <img src="assets/images/auction/featured/auction-1.png" alt="">
+                    </a>
+                    <div class="auction-content">
+                        <div class="title-area">
+                            <h6 class="title">
+                                <a href="./details/46.html">Hollywood Apartment #46</a>
+                            </h6>
+                            <div class="item-feature">
+                                <span>1 Beds</span>
+                                <span>1 Baths</span>
+                                <span>46 Sq. Ft.</span>
+                            </div>
+                            <h6 class="title">This Offer Ends in:</h6>
+                            <div class="countdwn">
+                                <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
+                                <be> <div id="bid_counter34" class="count-item"></div></be>
+                            </div>
+                        </div>
+                        <div id="offer">
+                            <div class="bid-area">
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\previous.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Previous Price</div>
+                                        <div class="amount1">$48,300</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\checked.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current">Current Price</div>
+                                        <div class="amount">$33,900</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\dollar.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current1">You Saved</div>
+                                        <div class="amount">$14,400</div>
+                                    </div>
+                                </div>
+                                <div class="bid-amount">
+                                    <div class="icon">
+                                        <img src="assets\images\icons\logo_tbc.png">
+                                    </div>
+                                    <div class="amount-content">
+                                        <div class="current2">TBC BANK</div>
+                                        <div class="amount">Guarantee</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bid-count-area">
+                                <span class="item">
+                                    <span class="left">Sold Today </span> <span id="number">40</span>
+                                </span>
+                                <span class="item">
+                                    <span class="left"> Available</span><span id="number2">24</span> 
+                            </div>
+                            <div class="text-center">
+                                <a href="./details/46.html" class="custom-button">MORE DETAILS</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+              
+            </div>
+        </div>
+    </div>
+</section>
+<!--============= Featured Auction Section Ends Here =============-->
+
+<!--============= How Section Starts Here =============-->
+<section class="how-section pos-rel padding-top">
+    <div class="container">
+        <div class="how-video-wrapper">
+            <div class="how-video-area">
+                <a href="https://vimeo.com/756767027" class="popup">
+                    <div class="video-button">
+                        <i class="flaticon-right-arrow-1"></i>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="section-header text-lg-left">
+            <h2 class="title">How it works</h2>
+            <p>Easy 3 steps to make a Deal</p>
+        </div>
+        <div class="row justify-content-center mb--40">
+            <div class="col-md-6 col-lg-4">
+                <div class="how-item">
+                    <div class="how-thumb">
+                        <img src="assets/images/how/how1.png" alt="how">
+                    </div>
+                    <div class="how-content">
+                        <h4 class="title">Select property</h4>
+                        <p>No Credit Card Required</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="how-item">
+                    <div class="how-thumb">
+                        <img src="assets/images/how/how2.png" alt="how">
+                    </div>
+                    <div class="how-content">
+                        <h4 class="title">contact sales agent</h4>
+                        <p>More than 70 Agents to help you</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="how-item">
+                    <div class="how-thumb">
+                        <img src="assets/images/how/how3.png" alt="how" style="width: 40%;">
+                    </div>
+                    <div class="how-content">
+                        <h4 class="title">reserve</h4>
+                        <p>Congratulation, You Did a Great Deal</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="car-2 d-none d-lg-block"><img src="assets/images/how/car2.png" alt="how"></div>
+</section>
+<!--============= How Section Starts Here =============-->
+
+    <!--============= Call In Section Starts Here =============-->
+    <section class="call-in-section padding-top">
+        <div class="container">
+            <div class="call-wrapper cl-white bg_img" data-background="assets/images/call-in/call-bg.png">
+                <div class="section-header">
+                    <h3 class="title">Don’t let this opportunity go away</h3>
+                    <p>Always taking discounts to the next level</p>
+                </div>
+                <a href="sign-up.html" class="custom-button white">apply now</a>
+            </div>
+        </div>
+    </section>
+    <!--============= Call In Section Ends Here =============-->
+
+
+    <!--============= Client Section Starts Here =============-->
+    <section class="client-section padding-top padding-bottom">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="title">Don’t just take our word for it!</h2>
+                <p>Our hard work is paying off. Great reviews from amazing customers.</p>
+            </div>
+            <div class="m--15">
+                <div class="client-slider owl-theme owl-carousel">
+                    <div class="client-item">
+                        <div class="client-content">
+                            <p>The prices are very reasonable, dealing is professional in everything, and the finishes are of a very high standard, always with success.</p>
+                        </div>
+                        <div class="client-author">
+                            <div class="thumb">
+                                <a href="#0">
+                                    <img src="assets/images/client/client01.png" alt="client">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title"><a href="#0">Mariam AL Nagy</a></h6>
+                                <div class="ratings">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-content">
+                            <p>I extend our sincere greetings to you .. Swefland has been managing our family's properties honestly and transparently for 2 years.</p>
+                        </div>
+                        <div class="client-author">
+                            <div class="thumb">
+                                <a href="#0">
+                                    <img src="assets/images/client/client02.png" alt="client">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title"><a href="#0">Bashir</a></h6>
+                                <div class="ratings">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="client-item">
+                        <div class="client-content">
+                            <p>Excellent service! The best real estate offers they have, and they own many projects.Swefland have a very respectful staff and easy to deal with.</p>
+                        </div>
+                        <div class="client-author">
+                            <div class="thumb">
+                                <a href="#0">
+                                    <img src="assets/images/client/client03.png" alt="client">
+                                </a>
+                            </div>
+                            <div class="content">
+                                <h6 class="title"><a href="#0">Tamar</a></h6>
+                                <div class="ratings">
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                    <span><i class="fas fa-star"></i></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--============= Client Section Ends Here =============-->
+
+
+    <!--============= Footer Section Starts Here =============-->
+    <footer class="bg_img padding-top oh" data-background="assets/images/footer/footer-bg.jpg">
+        <div class="footer-top-shape">
+            <img src="assets/css/img/footer-top-shape.png" alt="css">
+        </div>
+        <div class="anime-wrapper">
+            <div class="anime-1 plus-anime">
+                <img src="assets/images/footer/p1.png" alt="footer">
+            </div>
+            <div class="anime-2 plus-anime">
+                <img src="assets/images/footer/p2.png" alt="footer">
+            </div>
+            <div class="anime-3 plus-anime">
+                <img src="assets/images/footer/p3.png" alt="footer">
+            </div>
+            <div class="anime-5 zigzag">
+                <img src="assets/images/footer/c2.png" alt="footer">
+            </div>
+            <div class="anime-6 zigzag">
+                <img src="assets/images/footer/c3.png" alt="footer">
+            </div>
+            <div class="anime-7 zigzag">
+                <img src="assets/images/footer/c4.png" alt="footer">
+            </div>
+        </div>
+
+        <div class="footer-top padding-bottom padding-top" style="margin-top: 3rem;">
+            <div class="container">
+                <div class="row mb--60">
+                    <div class="col-sm-6 col-lg-4"></div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="footer-widget widget-links">
+                            <h5 class="title">ABOUT COMPANY</h5>
+                            <ul class="links-list">
+                                <li>
+                                    <a href="#0">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Why Georgia</a>
+                                </li>
+                                <li>
+                                    <a href="https://blog.swefland.com/">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="#0">Branches</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="footer-widget widget-follow">
+                            <h5 class="title">CONTACT US</h5>
+                            <ul class="links-list">
+                                <li>
+                                    <a href="https://api.whatsapp.com/send?phone=995577124108" target="_blank"><i class="fas fa-phone-alt"></i>+995 577 124 108</a>
+                                </li>
+                                <li>
+                                    <a href="mailto:Info@Swefland.com"><i class="fas fa-envelope-open-text"></i>info@Swefland.com</a>
+                                </li>
+                                <li>
+                                    <a href="https://goo.gl/maps/6ZQTyKkyzS6vn7Vu5" target="_blank"><i class="fas fa-location-arrow"></i>I. Chavchavadze Ave. 37 M, Axis Towers</a>
+                                </li>
+                            </ul>
+                            <ul class="social-icons">
+                                <li>
+                                    <a href="https://www.facebook.com/swefland/" class="active"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/channel/UC2Y4Ec28KlMYcqAKAqmHGTg" ><i class="fab fa-youtube"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/swefland/"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/swefland/"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-area">
+                    <div class="footer-bottom-wrapper">
+                        <div class="logo">
+                            <a href="index.html"><img src="assets/images/logo/logo.png" alt="logo"></a>
+                        </div>
+                        <div class="copyright"><p>&copy; 2022 | Developed By  💜 <a href="https://Swefland.com/" target="_blank" style="color: white;">Swefland</a></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--============= Footer Section Ends Here =============-->
+
+    
+    <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="position: fixed; bottom: 105px; left: -42px; z-index: 80;"><a id="WhatsApp-button" href="https://api.whatsapp.com/send?phone=995577124108&text=Contact%20Us%20Via%20Whatsapp" target="_blank" class="phoneJs" title="YorkTowers"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
+    
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/modernizr-3.6.0.min.js"></script>
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/waypoints.js"></script>
+    <script src="assets/js/nice-select.js"></script>
+    <script src="assets/js/counterup.min.js"></script>
+    <script src="assets/js/owl.min.js"></script>
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <script src="assets/js/yscountdown.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
