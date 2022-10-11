@@ -93,50 +93,14 @@
                         <h2 class="title">REGISTRATION</h2>
                         <p>We're happy you're here!</p>
                     </div>
-                    <form action="https://crm.yorktowers.com/modules/Webforms/capture.php" id="__vtigerWebForm" class="login-form"  name="website" method="post" enctype="multipart/form-data">
-                        <div class="form-group mb-30">
-                            <label for="login-email"><i class="fa fa-user"></i></label>
-                            <input type="text" id="name" placeholder="Name" name="lastname"   maxlength="256" ddata-label="" value=""  autofocus required>
-                        </div>
-                        <div class="form-group mb-30">
-                            <label for="login-email"><i class="fa fa-phone"></i></label>
-                            <input type="tel" maxlength="17" onkeypress='validate(event)' id="phone"  name="mobile" value="" pattern="^\+(?:[0-9] ?){6,14}[0-9]$" title="Enter Valid Number Start With Special Country Code "  data-label="" placeholder="Phone Number With Country Code"  required>
-
-                            <script>
-                                function validate(evt) {
-                                     var theEvent = evt || window.event;
-             
-                                     // Handle paste
-                                     if (theEvent.type === 'paste') {
-                                         key = event.clipboardData.getData('text/plain');
-                                     } else {
-                                     // Handle key press
-                                         var key = theEvent.keyCode || theEvent.which;
-                                         key = String.fromCharCode(key);
-                                     }
-                                     var regex = /[+.0-9]|\./;
-                                     if( !regex.test(key) ) {
-                                       theEvent.returnValue = false;
-                                       if(theEvent.preventDefault) theEvent.preventDefault();
-                                     }
-                                   }
-
-                                   document.getElementById("check").checked = true;
-                             </script>
-
-                        </div>
-                        <div class="form-group mb-30">
-                            <label for="login-pass"><i class="fa fa-envelope-open-text"></i></label>
-                            <input type="email" id="form-hero-email" value=""  name="email" placeholder="Email Address" maxlength="256" data-label="" required> 
-                        </div>
-                        <div class="form-group mb-30">
-                            <label for="login-email"><i class="fa fa-comment"></i></label>
-                            <input type="text" id="Message" autocomplete="off" maxlength="256" name="description" placeholder="Message">
-                        </div>
-                        <div class="form-group mb-0">
-                            <button type="submit" class="custom-button" value="Submit" data-wait="Please wait...">SIGN UP</button>
-                        </div>
-                    </form>
+                    <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
+                    <script>
+                      hbspt.forms.create({
+                        region: "eu1",
+                        portalId: "26464582",
+                        formId: "57f22888-2523-4ecb-82f3-f4dbb91b81bd"
+                      });
+                    </script>
                 </div>
                 <div class="right-side cl-white">
                     <div class="section-header mb-0">
@@ -212,7 +176,7 @@
                                     <a href="mailto:Info@Swefland.com"><i class="fas fa-envelope-open-text"></i>info@Swefland.com</a>
                                 </li>
                                 <li>
-                                    <a href="https://goo.gl/maps/6ZQTyKkyzS6vn7Vu5" target="_blank"><i class="fas fa-location-arrow"></i>I. Chavchavadze ave 37 M, Axis towers black</a>
+                                    <a href="https://goo.gl/maps/6ZQTyKkyzS6vn7Vu5" target="_blank"><i class="fas fa-location-arrow"></i>I. Chavchavadze Ave. 37 M, Axis Towers </a>
                                 </li>
                             </ul>
                             <ul class="social-icons">
