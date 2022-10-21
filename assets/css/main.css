@@ -380,8 +380,7 @@ h1 a:hover,
     h2 a:hover,
     h3 a:hover,
     h4 a:hover,
-    h5 a:hover,
-    h6 a:hover {
+    h5 a:hover{
     color: #ee4730;
 }
 
@@ -459,8 +458,8 @@ p a:hover {
     }
 
     h2 {
-        font-size: 42px;
-        line-height: 50px;
+        font-size: 30px;
+        line-height: 40px;
         margin-top: -10px;
     }
 
@@ -1881,7 +1880,7 @@ footer {
 }
 
 .header-top-wrapper .cart-button-area li {
-    padding: 4px 15px;
+    padding: 0px 150px;
     text-align: center;
 }
 
@@ -1936,7 +1935,7 @@ footer {
 
 .header-top {
     border: 1px solid rgba(136, 124, 225, 0.502);
-    padding: 0.33rem;
+    padding-bottom: 0.6rem;
 }
 
 header {
@@ -2441,9 +2440,10 @@ header {
 }
 
 .banner-content .title {
-    font-size: 76px;
-    line-height: 86px;
+    font-size: 60px;
+    line-height: 75px;
     margin-bottom: 15px;
+    margin-top: 1rem;
 }
 
 .banner-content p {
@@ -2500,8 +2500,8 @@ header {
 
 @media (min-width: 1200px) {
     .banner-content .title {
-        font-size: 80px;
-        line-height: 90px;
+        font-size: 60px;
+        line-height: 75px;
     }
 }
 
@@ -2822,13 +2822,18 @@ header {
 
 @media (min-width: 1200px) {
     .banner-section-4 {
-        padding: 280px 0 340px;
+        padding: 250px 0 290px;
     }
 }
 
 @media (max-width: 575px) {
     .banner-section-4 {
         padding: 200px 0 70px;
+    }
+    .header-top-wrapper .cart-button-area li{
+        position: absolute;
+        padding: 0;
+        top: 170px;
     }
 }
 

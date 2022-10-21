@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -27,9 +26,8 @@
             <div class="loader-inner"></div>
         </div>
     </div>
-    <a href="#0" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
+
     <div class="overlay"></div>
-    
 
     <!--============= Header Section Starts Here =============-->
     <header>
@@ -40,11 +38,27 @@
                         <a href="">
                             <img src="assets/images/logo/logo.png" alt="logo">
                         </a>  
-                        
+                        <li>
+                            <span id="visitor"> Platform Visits : </span> 
+                            <script>
+
+                                function fakecounter(){
+    
+                                var decrease_increase=0
+                                
+                                var counterdate=new Date()
+                                var currenthits=counterdate.getTime().toString()
+                                currenthits=parseInt(currenthits.substring(5,currenthits.length-4))+decrease_increase
+                               
+                                document.write(" <be>"+currenthits+"</be> ")
+                                }
+                                fakecounter()
+                                </script>   
+                        </li>
                     </ul>
                     <ul class="customer-support">
                         <li>
-                            <a href="tel:+995 577 124 108" class="mr-3"><i class="fas fa-phone-alt"></i><span class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
+                            <a href="tel:+995 555 555 473" class="mr-3"><i class="fas fa-phone-alt"></i><span class="ml-2 d-none d-sm-inline-block">Customer Support</span></a>
                         </li>
                         <li>
                             <i class="fas fa-globe"></i>
@@ -68,9 +82,9 @@
                 <div class="col-md-10 col-lg-7 col-xl-8">
                     <div class="banner-content cl-white">
                       
-                        <h1 class="title">Largest Real Estate <span class="d-xl-block"> Event-Sale <span style="color: #fac123">2022</span></span></h1>
+                        <h1 class="title">Great Offers Designed  <span class="d-xl-block"> Especially  <span style="color: #fac123">For You</span></span></h1>
                         <p class="mw-500">
-                            Great Deals specially designed for you <br>Hurry , Take advantage of the hugest discounts ever. 
+                            What are you waiting for? Hurry up and take advantage of the biggest offers ever in 2022. 
                             <br> <br>
                             <span style="color: #fa2323;font-size: 1.4rem;font-weight: 500;">Limited Time Remaining</span>
                         </p>
@@ -80,24 +94,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 col-xl-4">
-                    <div class="banner-thumb-4">
-                        <span id="visitor"> Website Visits : </span> 
-                        <script>
-
-                            function fakecounter(){
-
-                            var decrease_increase=0
-                            
-                            var counterdate=new Date()
-                            var currenthits=counterdate.getTime().toString()
-                            currenthits=parseInt(currenthits.substring(7,currenthits.length-4))+decrease_increase
-                           
-                            document.write(" <be>"+currenthits+"</be> ")
-                            }
-                            fakecounter()
-                            </script>   
-                                                 
-                        <a href="#appartments" class="bid-now"><img src="assets\images\icons\booking.png"><span>BOOK NOW</span></a>
+                    <div class="banner-thumb-4">                                                 
                         <img src="assets/images/banner/banner-4.png" alt="banner">
                     </div>
                 </div>
@@ -128,14 +125,9 @@
                     <div class="auction-content">
                         <div class="title-area">
                             <h6 class="title">
-                                <a href="#0">Offer #1</a>
+                                <a href="#0"><span style="color: #DBB64F">Flight Ticket </span> Offer</a>
                             </h6>
-                            <div class="item-feature">
-                                <span>1 Beds</span>
-                                <span>1 Baths</span>
-                                <span>46 Sq. Ft.</span>
-                            </div>
-                            <h6 class="title">This Offer Ends in:</h6>
+                            <h6 class="title mt-2">This Offer Ends in:</h6>
                             <div class="countdwn">
                                 <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
                                 <be> <div id="min_counter_1" class="count-item"></div></be>
@@ -188,7 +180,7 @@
                                     <span class="left"> Available</span><span id="number2">24</span> 
                             </div>
                             <div class="text-center">
-                                <a href="#0" class="custom-button">MORE DETAILS</a>
+                                <a href="details/offer1.html" class="custom-button">MORE DETAILS</a>
                             </div>
                         </div>
                     </div>
@@ -197,19 +189,14 @@
             <div class="col-sm-10 col-md-6 col-lg-5">
                 <div class="auction-item-8">
                     <a href="#0" class="thumb-area bg_img"> 
-                        <img src="assets/images/auction/featured/002.jpg" alt="">
+                        <img src="assets/images/auction/featured/003.jpg" alt="">
                     </a>
                     <div class="auction-content">
                         <div class="title-area">
                             <h6 class="title">
-                                <a href="#0">Offer #2</a>
+                                <a href="#0"><span style="color: #DBB64F">Fully furnished unit </span> in Marina Club Batumi</a>
                             </h6>
-                            <div class="item-feature">
-                                <span>1 Beds</span>
-                                <span>1 Baths</span>
-                                <span>46 Sq. Ft.</span>
-                            </div>
-                            <h6 class="title">This Offer Ends in:</h6>
+                            <h6 class="title mt-2">This Offer Ends in:</h6>
                             <div class="countdwn">
                                 <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
                                 <be> <div id="min_counter_2" class="count-item"></div></be>
@@ -262,28 +249,23 @@
                                     <span class="left"> Available</span><span id="number2">24</span> 
                             </div>
                             <div class="text-center">
-                                <a href="#0" class="custom-button">MORE DETAILS</a>
+                                <a href="details/offer2.html" class="custom-button">MORE DETAILS</a>
                             </div>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-10 col-md-6 col-lg-5">
                 <div class="auction-item-8">
                     <a href="#0" class="thumb-area bg_img"> 
-                        <img src="assets/images/auction/featured/003.jpg" alt="">
+                        <img src="assets/images/auction/featured/002.jpg" alt="">
                     </a>
                     <div class="auction-content">
                         <div class="title-area">
                             <h6 class="title">
-                                <a href="#0">Offer #3</a>
+                                <a href="#0">Visit one of our branches in Saudi Arabia and <span style="color: #DBB64F"> double the offer</span></a>
                             </h6>
-                            <div class="item-feature">
-                                <span>1 Beds</span>
-                                <span>1 Baths</span>
-                                <span>46 Sq. Ft.</span>
-                            </div>
-                            <h6 class="title">This Offer Ends in:</h6>
+                            <h6 class="title mt-2">This Offer Ends in:</h6>
                             <div class="countdwn">
                                 <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
                                 <be> <div id="min_counter_3" class="count-item"></div></be>
@@ -336,12 +318,13 @@
                                     <span class="left"> Available</span><span id="number2">24</span> 
                             </div>
                             <div class="text-center">
-                                <a href="#0" class="custom-button">MORE DETAILS</a>
+                                <a href="details/offer3.html" class="custom-button">MORE DETAILS</a>
                             </div>
-                        </div>
+                    </div>
                     </div>
                 </div>
             </div>
+          
             <div class="col-sm-10 col-md-6 col-lg-5">
                 <div class="auction-item-8">
                     <a href="#0" class="thumb-area bg_img"> 
@@ -350,14 +333,9 @@
                     <div class="auction-content">
                         <div class="title-area">
                             <h6 class="title">
-                                <a href="#0">Offer #4</a>
+                                <a href="#0"><span style="color: #DBB64F">A brand new iPhone 14 </span> when you buy a unit in one of our projects</a>
                             </h6>
-                            <div class="item-feature">
-                                <span>1 Beds</span>
-                                <span>1 Baths</span>
-                                <span>46 Sq. Ft.</span>
-                            </div>
-                            <h6 class="title">This Offer Ends in:</h6>
+                            <h6 class="title mt-2">This Offer Ends in:</h6>
                             <div class="countdwn">
                                 <a href="#0" class="bid"><img src="assets\images\icons\apprtment.png"></a>
                                 <be> <div id="bid_counter34" class="count-item"></div></be>
@@ -410,7 +388,7 @@
                                     <span class="left"> Available</span><span id="number2">24</span> 
                             </div>
                             <div class="text-center">
-                                <a href="#0" class="custom-button">MORE DETAILS</a>
+                                <a href="details/offer4.html" class="custom-button">MORE DETAILS</a>
                             </div>
                         </div>
                     </div>
@@ -612,19 +590,19 @@
                             <h5 class="title">ABOUT COMPANY</h5>
                             <ul class="links-list">
                                 <li>
-                                    <a href="#0">About Us</a>
+                                    <a href="https://swefland.com/our-company/">About Us</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Projects</a>
+                                    <a href="https://swefland.com/projects/">Projects</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Why Georgia</a>
+                                    <a href="https://swefland.com/why-georgia/">Why Georgia</a>
                                 </li>
                                 <li>
                                     <a href="https://blog.swefland.com/">Blog</a>
                                 </li>
                                 <li>
-                                    <a href="#0">Branches</a>
+                                    <a href="https://swefland.com/contact-us/">Branches</a>
                                 </li>
                             </ul>
                         </div>
@@ -634,7 +612,7 @@
                             <h5 class="title">CONTACT US</h5>
                             <ul class="links-list">
                                 <li>
-                                    <a href="https://api.whatsapp.com/send?phone=995577124108" target="_blank"><i class="fas fa-phone-alt"></i>+995 577 124 108</a>
+                                    <a href="https://api.whatsapp.com/send?phone=995555555473" target="_blank"><i class="fas fa-phone-alt"></i>+995 555 555 473</a>
                                 </li>
                                 <li>
                                     <a href="mailto:Info@Swefland.com"><i class="fas fa-envelope-open-text"></i>info@Swefland.com</a>
@@ -678,7 +656,7 @@
     <!--============= Footer Section Ends Here =============-->
 
     
-    <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="position: fixed; bottom: 105px; left: -42px; z-index: 80;"><a id="WhatsApp-button" href="https://api.whatsapp.com/send?phone=995577124108&text=Contact%20Us%20Via%20Whatsapp" target="_blank" class="phoneJs" title="YorkTowers"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
+    <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="position: fixed; bottom: 0px; right: -20px; z-index: 80;"><a id="WhatsApp-button" href="https://api.whatsapp.com/send?phone=995577124108&text=Contact%20Us%20Via%20Whatsapp" target="_blank" class="phoneJs" title="YorkTowers"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
     
 
     <script src="assets/js/jquery-3.3.1.min.js"></script>
