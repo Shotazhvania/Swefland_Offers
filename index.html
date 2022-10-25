@@ -23,7 +23,7 @@
 <body>
     <div class="overlayer" id="overlayer">
         <div class="loader">
-            <div class="loader-inner"></div>
+            <img src="/assets/images/logo/loader.gif" alt="">
         </div>
     </div>
 
@@ -48,7 +48,7 @@
                                 
                                 var counterdate=new Date()
                                 var currenthits=counterdate.getTime().toString()
-                                currenthits=parseInt(currenthits.substring(5,currenthits.length-4))+decrease_increase
+                                currenthits=parseInt(currenthits.substring(7,currenthits.length-4))+decrease_increase
                                
                                 document.write(" <be>"+currenthits+"</be> ")
                                 }
@@ -133,7 +133,7 @@
                                 <be> <div id="min_counter_1" class="count-item"></div></be>
                             </div>
                         </div>
-                        <div id="offer2">
+                        <div id="offer2" class="noselect">
                             <div class="bid-area">
                                 <div class="bid-amount">
                                     <div class="icon">
@@ -202,7 +202,7 @@
                                 <be> <div id="min_counter_2" class="count-item"></div></be>
                             </div>
                         </div>
-                        <div id="offer">
+                        <div id="offer" class="noselect">
                             <div class="bid-area">
                                 <div class="bid-amount">
                                     <div class="icon">
@@ -271,7 +271,7 @@
                                 <be> <div id="min_counter_3" class="count-item"></div></be>
                             </div>
                         </div>
-                        <div id="offer">
+                        <div id="offer" class="noselect">
                             <div class="bid-area">
                                 <div class="bid-amount">
                                     <div class="icon">
@@ -341,7 +341,7 @@
                                 <be> <div id="bid_counter34" class="count-item"></div></be>
                             </div>
                         </div>
-                        <div id="offer">
+                        <div id="offer" class="noselect">
                             <div class="bid-area">
                                 <div class="bid-amount">
                                     <div class="icon">
@@ -404,17 +404,6 @@
 <!--============= How Section Starts Here =============-->
 <section class="how-section pos-rel padding-top">
     <div class="container">
-        <div class="how-video-wrapper">
-            <div class="how-video-area">
-                <a href="https://vimeo.com/756767027" class="popup">
-                    <div class="video-button">
-                        <i class="flaticon-right-arrow-1"></i>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </a>
-            </div>
-        </div>
         <div class="section-header text-lg-left">
             <h2 class="title">How it works</h2>
             <p>Easy 3 steps to make a Deal</p>
@@ -658,8 +647,7 @@
     
     <div class="phone-call cbh-phone cbh-green cbh-show  cbh-static" id="clbh_phone_div" style="position: fixed; bottom: 0px; right: -20px; z-index: 80;"><a id="WhatsApp-button" href="https://api.whatsapp.com/send?phone=995577124108&text=Contact%20Us%20Via%20Whatsapp" target="_blank" class="phoneJs" title="YorkTowers"><div class="cbh-ph-circle"></div><div class="cbh-ph-circle-fill"></div><div class="cbh-ph-img-circle1"></div></a></div>
     
-
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="../assets/js/jquery-3.3.1.min.js"></script>
     <script src="assets/js/modernizr-3.6.0.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
