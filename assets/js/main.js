@@ -2,7 +2,7 @@
   "user strict";
   // Preloader Js
   $(window).on('load', function () {
-    $('#overlayer').fadeOut(4000);
+    $('#overlayer').fadeOut(2000);
     var img = $('.bg_img');
     img.css('background-image', function () {
       var bg = ('url(' + $(this).data('background') + ')');
