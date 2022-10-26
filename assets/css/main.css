@@ -2569,6 +2569,10 @@ header {
 .banner-thumb-4 {
     position: relative;
 }
+.icon img{
+    width: 50px;
+    height: 50px;
+}
 
 .banner-thumb-4 .bid-now {
     width: 140px;
@@ -2652,7 +2656,7 @@ header {
         -ms-transform: translate(-21%, -42%);
         transform: translate(-21%, -42%);
     }
-
+    
     .banner-thumb-4 img {
         max-width: 599px;
     }
@@ -5435,7 +5439,7 @@ be{
 }
 
 .auction-item-8 .auction-content .bid-area .bid-amount .amount-content {
-    padding-left: 15px;
+    padding-left: 35px;
     max-width: calc(100% - 30px);
 }
 
