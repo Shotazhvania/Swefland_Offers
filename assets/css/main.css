@@ -403,6 +403,11 @@ h2 {
     -ms-user-select: none;
     user-select: none;
 }
+.text p{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
 
 .mclist li{
     list-style: circle;
@@ -5361,6 +5366,11 @@ be{
     margin: 0;
     line-height: 28px;
     font-size: 20px;
+}
+.auction-item-8 .auction-content .title-area .title2 {
+    margin: 0;
+    line-height: 28px;
+    font-size: 16px;
 }
 .countdwn{
     display: flex;

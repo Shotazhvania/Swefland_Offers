@@ -20,6 +20,11 @@ body::-webkit-scrollbar{
 body{
     text-align: right;
 }
+.mb--60 {
+    margin-bottom: -60px;
+    direction: rtl;
+    text-align: right;
+}
 hr {
     display: block;
     height: 1px;
@@ -5360,11 +5365,32 @@ be{
     padding: 25px 0 16px;
     text-align: center;
 }
+.details{
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.text p {
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    text-align: right;
+    direction: rtl;
+}
 
 .auction-item-8 .auction-content .title-area .title {
     margin: 0;
     line-height: 28px;
-    font-size: 18px;
+    font-size: 22px;
+    text-align: right;
+    direction: rtl;
+}
+.auction-item-8 .auction-content .title-area .title2 {
+    margin: 0;
+    line-height: 28px;
+    font-size: 15px;
+    direction: rtl;
+    font-weight: normal;
 }
 .countdwn{
     display: flex;
